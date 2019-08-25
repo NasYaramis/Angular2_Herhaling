@@ -1,0 +1,15 @@
+<form receptForm='ngForm' (ngSubmit)='onSubmit(name,calorie,ingredients,time)'>
+  Naam:<br>
+  <input [(ngModel)] = "name" type="text" name="name">
+  <br>
+  Caloriën:<br>
+  <input [(ngModel)] = "calorie" type="text" name="calorie">
+  <br><br>
+  Ingedriënten:<br>
+  <input [(ngModel)] = "ingredients" type="text" name="ingredients">
+  <br><br>
+  Benodigde Tijd:<br>
+  <input [(ngModel)] = "time" type="text" name="time">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
